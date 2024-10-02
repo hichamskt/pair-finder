@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎓 Pair-fainder Application Development
 
-## Getting Started
+## 🎯 Objective
 
-First, run the development server:
+The goal of this project, developed with the latest versions of **Next.js** and **TypeScript**, is to create a pair learning platform that enables users to collaborate effectively in real time. It allows users to securely sign in, create learning sessions, and access features tailored to education, such as shared whiteboards, code collaboration, screen sharing, and participant management. The platform is designed to foster interactive learning by pairing users together, encouraging shared knowledge and skill development.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Application Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🔐 1. **Authentication**
+Implements authentication and authorization features, allowing users to securely sign in via social networks, ensuring appropriate levels of access and permissions on the platform.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🏠 2. **New Room Creation**
+Users can quickly create a room by configuring camera and microphone settings before joining.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 🛠️ 3. **Room Controls**
+Participants have full control over various aspects of the learning session, including:
+- 🎉 Emoji reactions
+- 🖥️ Screen sharing
+- 🔊 Sound management (mute/unmute)
+- 🔲 Grid layout
+- 👥 Participant list view
+- ⚙️ Individual participant management
 
-## Learn More
+### 🚪 4. **Leave Room**
+Participants can leave the room, or the room creator can end the session for all participants.
 
-To learn more about Next.js, take a look at the following resources:
+### ✏️ 5. **Edit and Delete Room**
+The room owner has the ability to edit or delete the room at any time.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🏡 6. **Personal Room**
+Each user has the ability to create a personal room, which is easily shareable with others.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### 🔒 7. **Secure Real-Time Functionality**
+All interactions on the platform are secure and happen in real-time, ensuring privacy and data integrity.
 
-## Deploy on Vercel
+### 🔍 8. **Search for Room**
+Users can find pair learning rooms by searching for tags.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 📱 9. **Responsive Design**
+Follows responsive design principles to ensure an optimal user experience on all devices, adapting to different screen sizes and resolutions.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
