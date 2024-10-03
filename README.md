@@ -93,7 +93,7 @@ To initialize Shadcn UI, use the following command:
 npx shadcn-ui@latest init
 ```
 2. Drizzle ORM with PostgreSQL
-Install Drizzle ORM for database interaction:
+Install [Drizzle ORM](https://orm.drizzle.team/docs/get-started-postgresql#postgresjs) for database interaction:
 ```bash
 npm i drizzle-orm postgres
 npm i -D drizzle-kit
@@ -118,7 +118,7 @@ Add DATABASE_URL in your .env file:
 DATABASE_URL="postgres://postgres:yourpassword@localhost:5432/yourdb"
 ```
 3. Docker Setup
-Install Docker Compose and create a docker-compose.yml file with the following content:
+Install [Docker Compose](https://docs.docker.com/compose/#:~:text=Compose%20simplifies%20the%20control%20of%20your) and create a docker-compose.yml file with the following content:
 ```bash
 version: "3.9"
 services:
