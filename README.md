@@ -142,6 +142,7 @@ Run the command:
 docker-compose up
 ```
 4. Database Schema
+
 Create a schema.ts file in the src/db directory, and a drizzle.config.ts file at the project root:
 ```bash
 import { defineConfig } from "drizzle-kit";
