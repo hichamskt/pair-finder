@@ -65,8 +65,9 @@ Install the project dependencies using npm:
 npm install
 ```
 ⚙️ Environment Configuration
-```bash
+
 Create a .env file in the root of your project and add the following content:
+```bash
 GOOGLE_CLIENT_ID="your-google-client-id"
 GOOGLE_CLIENT_SECRET="your-google-client-secret"
 NEXTAUTH_SECRET="your-secret-key"
@@ -186,6 +187,11 @@ export default NextAuth(authOptions);
 Set up OAuth credentials in [Google Cloud Console.](https://console.cloud.google.com/apis/credentials/oauthclient)
 
 📹 GetStream Video SDK Integration
+![Capture d'écran 2024-09-06 105944](https://github.com/user-attachments/assets/b3930168-f45c-441a-9168-b87e9e59e807)
+![Capture d'écran 2024-09-06 105757](https://github.com/user-attachments/assets/912dcbc5-b581-40b4-bc51-e4a05099838c)
+![Capture d'écran 2024-09-06 105850](https://github.com/user-attachments/assets/c80444f0-ee59-435d-bdc4-5f2bda013eaf)
+![Capture d'écran 2024-09-06 105944](https://github.com/user-attachments/assets/cde08f50-48da-44ca-941b-89d45b8b3ead)
+
 1. Signing Up
 Create a GetStream account:  [GetStream.io](https://getstream.io/)
 Obtain the following API keys:
