@@ -38,8 +38,7 @@ The goal of this project, developed using **Next.js** and **TypeScript**, is to 
 ### 🔍 **Search for Room**
 - Search pair learning rooms using tags.
 
-### 📱 **Responsive Design**
-- Optimized for all devices with responsive design principles to adapt to various screen sizes.
+
 
 ---
 
